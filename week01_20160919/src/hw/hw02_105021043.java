@@ -6,17 +6,21 @@ package hw;
  * Date: 2016/09/19
  * Author: 105021043 劉凱文
  */
+
 import java.util.Random;
+import java.util.Scanner;
 public class hw02_105021043 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		Scanner scn=new Scanner(System.in);
+		int n=scn.nextInt();
 		Random rnd =new Random();
-        int v1 =rnd.nextInt(6)+1;
-        int v2 =rnd.nextInt(6)+1;
-        int v3 =rnd.nextInt(6)+1;
-        int v4 =rnd.nextInt(6)+1;
-        int v5 =rnd.nextInt(6)+1;
-        int v6 =rnd.nextInt(6)+1;
+        int v1 =rnd.nextInt(n)+1;
+        int v2 =rnd.nextInt(n)+1;
+        int v3 =rnd.nextInt(n)+1;
+        int v4 =rnd.nextInt(n)+1;
+        int v5 =rnd.nextInt(n)+1;
+        int v6 =rnd.nextInt(n)+1;
         System.out.print(v1+" ");
         System.out.print(v2+" ");
         System.out.print(v3+" ");
